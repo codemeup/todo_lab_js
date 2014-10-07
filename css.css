@@ -1,3 +1,123 @@
+h1{
+	text-align: center;
+	color: #FF9933;
+	text-shadow: -3px -1px 2px rgba(222, 150, 150, 1);
+}
+#animated-example {
+	text-align: center;
+}
 .done {
 	text-decoration: line-through;
+}
+hr {
+width: 90%;
+}
+
+.container-fluid {
+	vertical-align: center;
+	margin: 15px;
+	padding: 20px;
+	text-align: left;
+	font-size: 20px
+}
+
+body {
+	text-align: center;
+	background-color: #53CFA6;
+	font-family: avenir;
+	font-size: 20px;
+	color: #FF9933;
+	text-shadow: -3px -1px 2px rgba(222, 150, 150, 1);
+}
+
+p {
+	font-family: Avenir;
+	font-style: italic;
+}
+
+form{
+	color: grey;
+	margin: 20px;
+}
+/*.list-group {
+	text-align: auto;
+	margin: 50px;
+}*/
+/*ul.#listItems {
+	text-align: left;
+	margin-left: 50px
+	font-family: zapfino;
+	margin: 50px;
+/*	/*-webkit-margin: 50px;*/
+	/*display: block;
+	vertical-align: left;*/
+}*/
+
+
+
+li {
+	text-align: left;
+	margin-left: 80px;
+	font-family: avenir;
+/*	margin: 50px;
+	/*-webkit-margin: 50px;*/
+	display: block;
+}
+
+button {
+	color; black;
+	margin: 15px;
+	font-family: avenir;
+}
+
+.animated { 
+    -webkit-animation-duration: 2s; 
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+.fadeIn { 
+    -webkit-animation-name: fadeIn; 
+    animation-name: fadeIn; 
+}
+
+.animated { 
+    -webkit-animation-duration: 4s; 
+    animation-duration: 4s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+@-webkit-keyframes fadeInLeftBig { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-2000px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInLeftBig { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-2000px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInLeftBig { 
+    -webkit-animation-name: fadeInLeftBig; 
+    animation-name: fadeInLeftBig; 
 }

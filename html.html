@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 	<meta charset="UTF-8">
 	<title>TO DO LIST</title>
 </head>
 <link rel="stylesheet" type="text/css" href="css.css">
 <body>
+<div id="animated-example" class="animated fadeIn"><h1><span class="glyphicon glyphicon-cloud"></span>  YOUR TO DO LIST  <span class="glyphicon glyphicon-cloud"></span></h1></div>
+<hr></hr>
+<hr class="2" style="width: 70%;"></hr>
+<hr class="1" style="width: 60%;"></hr>
+<hr class="1" style="width: 50%;"></hr>
+
 	<form id="toDoList"> <!-- This could be e.g. <form action="www.google.com"> and take you to a url. If you don't insert an action it takes you back to the page you're on.  the form id is what we'll call upon in the javascript file-->
 		<p>
-		<label for="title">What do you need to do? </label> <!-- The label is the piece of text in front of the input box. The 'for' links the label to the text box so it should be the same as the id. It links the two. -->
-		<input type="text" name="" id="title" value="" placeholder="What's to do?" autofocus required> <!-- The type is text, the value when the page opens is value, the placeholder is what's in the text box when the pg loads. autofocus means the box is highlighted upon opening page, required means it's a required field. -->
+		<label for="title"> </label> <!-- The label is the piece of text in front of the input box. The 'for' links the label to the text box so it should be the same as the id. It links the two. -->
+		<input type="text" name="" id="title" value="" placeholder="What's to do today?" autofocus> <!-- The type is text, the value when the page opens is value, the placeholder is what's in the text box when the pg loads. autofocus means the box is highlighted upon opening page, required means it's a required field. -->
 		<input type="submit" value="Add"> <!-- The value is what it says before the form. -->
 		</p>
 	</form>
-	<ul id="listItems">
-	</ul>
+	
+	<div class= "container-fluid">
+		<ul id="listItems">
+		</ul>
+	</div>
 </body>
 <script src="java.js"></script>
 </html>
